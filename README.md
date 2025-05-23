@@ -1,2 +1,2 @@
 # admin-dashboard
-Admin dashboard frontend layout project using HTML and CSS Grid. Project cards are responsive when the browser window is resized.
+Admin dashboard frontend layout project using HTML and CSS Grid (and a bit of Flexbox on the project cards). Project cards are responsive when the browser window is resized. Links, buttons, search bar are currently non-functional.
