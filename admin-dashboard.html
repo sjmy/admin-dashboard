@@ -10,45 +10,52 @@
     <div class="layout">
         <div class="header">
             <div class="header-search">
-                <div class="search-logo">slogo</div>
-                <div class="search-bar">search bar</div>
+                <label for="search"></label>
+                <input class="search" type="search" id="search" placeholder="Search...">
             </div>
-            <div class="header-user">bell logo user flex?</div>
+            <div class="header-user">
+                <div class="logo"><img src="img/notifications.svg"></div>
+                <div class="logo"><img src="img/user.svg"></div>
+                Sleve McDichael
+            </div>
             <div class="header-announcement">
-                <div class="header-announce-logo">logo</div>
-                <div class="header-annouce-words">what up homie</div>
+                <div class="header-announce-logo"><img src="img/user.svg"></div>
+                <div class="header-announce-text">
+                    <h4>Hi there,</h4>
+                    <h1>Sleve McDichael (@sleve)</h1>
+                </div>
             </div>
             <div class="header-links">
-                <button class="new">new</button>
-                <button class="upload">upload</button>
-                <button class="share">share</button>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
             </div>
         </div>
         <div class="sidebar">
             <div class="brand">
-                <div class="brand-logo">Logo</div>
+                <div class="brand-logo"><img src="img/brand-logo.svg"></div>
                 <div class="brand-name">SuperDash</div>
             </div>
             <div class="navigation">
-                <div class="home-logo">hlogo</div>
+                <div class="logo"><img src="img/home.svg"></div>
                 <div class="home">Home</div>
-                <div class="profile-logo">plogo</div>
+                <div class="logo"><img src="img/profile.svg"></div>
                 <div class="profile">Profile</div>
-                <div class="messages-logo">mlogo</div>
+                <div class="logo"><img src="img/messages.svg"></div>
                 <div class="messages">Messages</div>
-                <div class="history-logo">hlogo</div>
+                <div class="logo"><img src="img/history.svg"></div>
                 <div class="history">History</div>
-                <div class="tasks-logo">tlogo</div>
+                <div class="logo"><img src="img/tasks.svg"></div>
                 <div class="tasks">Tasks</div>
-                <div class="communities-logo">clogo</div>
+                <div class="logo"><img src="img/communities.svg"></div>
                 <div class="communities">Communities</div>
                 <div class="empty"></div>
                 <div class="empty"></div>
-                <div class="settings-logo">slogo</div>
+                <div class="logo"><img src="img/settings.svg"></div>
                 <div class="settings">Settings</div>
-                <div class="support-logo">slogo</div>
+                <div class="logo"><img src="img/support.svg"></div>
                 <div class="support">Support</div>
-                <div class="privacy-logo">plogo</div>
+                <div class="logo"><img src="img/privacy.svg"></div>
                 <div class="privacy">Privacy</div>
             </div>
         </div>
@@ -56,21 +63,120 @@
             <div class="projects">
                 <div class="projects-title">Your Projects</div>
                 <div class="card-container">
-                    <div class="card">1</div>
-                    <div class="card">2</div>
-                    <div class="card">3</div>
-                    <div class="card">4</div>
-                    <div class="card">5</div>
-                    <div class="card">6</div>
+                    <div class="card">
+                        <div class="card-content">
+                            <b>Etch-a-sketch</b>
+                            <br>
+                            Sketch creates a 16x16 grid of squares that scales to the height of your browser.
+                            The background colour of each square changes when the mouse enters a square.
+                        </div>
+                        <div class="card-logos">
+                            <div class="card-logo"><img src="img/star.svg"></div>
+                            <div class="card-logo"><img src="img/watch.svg"></div>
+                            <div class="card-logo"><img src="img/comment.svg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <b>To Do App</b>
+                            <br>
+                            Check those boxes and get tasks done. First item on the to do list: this app.
+                        </div>
+                        <div class="card-logos">
+                            <div class="card-logo"><img src="img/star.svg"></div>
+                            <div class="card-logo"><img src="img/watch.svg"></div>
+                            <div class="card-logo"><img src="img/comment.svg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <b>Calculator</b>
+                            <br>
+                            Calculator project for The Odin Project.
+                            Basic calculator created using Javascript, HTML, and CSS.
+                            Addition, subtraction, division, multiplication, percentage. Decimal and negative number support.
+                            Mouse and keyboard support!
+                        </div>
+                        <div class="card-logos">
+                            <div class="card-logo"><img src="img/star.svg"></div>
+                            <div class="card-logo"><img src="img/watch.svg"></div>
+                            <div class="card-logo"><img src="img/comment.svg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <b>Plant Daddy</b>
+                            <br>
+                            Game project for University of Helsinki Python Programming MOOC 2025.
+                        </div>
+                        <div class="card-logos">
+                            <div class="card-logo"><img src="img/star.svg"></div>
+                            <div class="card-logo"><img src="img/watch.svg"></div>
+                            <div class="card-logo"><img src="img/comment.svg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <b>Rock Paper Scissors</b>
+                            <br>
+                            A simple rock, paper, scissors game. Rock beats scissors. Scissors beats paper. Paper beats rock.
+                            User is asked to choose rock, paper, or scissors via button clicks. Computer choice randomly chosen.
+                            First to five wins. Have fun!
+                        </div>
+                        <div class="card-logos">
+                            <div class="card-logo"><img src="img/star.svg"></div>
+                            <div class="card-logo"><img src="img/watch.svg"></div>
+                            <div class="card-logo"><img src="img/comment.svg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <b>Sign Up Form</b>
+                            <br>
+                            A mock signup form to practice layout and forms.
+                            Form inputs have basic validation checks after the user interacts with each one,
+                            changing style based on the input.
+                        </div>
+                        <div class="card-logos">
+                            <div class="card-logo"><img src="img/star.svg"></div>
+                            <div class="card-logo"><img src="img/watch.svg"></div>
+                            <div class="card-logo"><img src="img/comment.svg"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="announcements">
                 <div class="announcements-title">Announcements</div>
-                <div class="announcements-list">list of announcements container</div>
+                <div class="announcements-list">
+                    <div class="announce">
+                        <b>Site Maintenance</b>
+                        <br>
+                        The site will be down for three hours this Sunday morning from 3am to 6am.
+                    </div>
+                    <div class="announce">
+                        <b>SuperDash Day</b>
+                        <br>
+                        Celebrate SuperDash Day next Friday with special guest Todd Bonzalez!
+                    </div>
+                    <div class="announce">
+                        <b>Company Softball</b>
+                        <br>
+                        Sign up for company softball this summer. See Mandy Dourque for more details.
+                    </div>
+                </div>
             </div>
             <div class="friends">
                 <div class="friends-title">Homies</div>
-                <div class="friends-list">list of homies container</div>
+                <div class="friends-list">
+                    <div class="logo"><img src="img/user.svg"></div>
+                    <div class="friend">@bobson</div>
+                    <div class="logo"><img src="img/user.svg"></div>
+                    <div class="friend">@dandleton</div>
+                    <div class="logo"><img src="img/user.svg"></div>
+                    <div class="friend">@mcrlwain</div>
+                    <div class="logo"><img src="img/user.svg"></div>
+                    <div class="friend">@archideld</div>
+                </div>
             </div>
         </div>
     </div>
